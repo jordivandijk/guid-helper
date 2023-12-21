@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>key-svgrepo-com.ico</ApplicationIcon>
+    <Title>Guid</Title>
+    <Authors>Jordi van Dijk</Authors>
+    <Copyright>GNU</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="key-svgrepo-com.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TextCopy" Version="6.1.0" />
+  </ItemGroup>
+
+</Project>
