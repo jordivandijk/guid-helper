@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "guid", "guid\guid.csproj", 
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "guidSetup", "guidSetup\guidSetup.vdproj", "{0E01C13F-EC42-41A0-BF59-DCF63A6534BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstallerHelper", "InstallerHelper\InstallerHelper.csproj", "{B466EECC-0F90-40D0-9EF4-6D90BF32D92E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{BD5FDCD4-B476-4629-91F2-3ADC66DB8D9F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0E01C13F-EC42-41A0-BF59-DCF63A6534BA}.Debug|Any CPU.ActiveCfg = Debug
 		{0E01C13F-EC42-41A0-BF59-DCF63A6534BA}.Release|Any CPU.ActiveCfg = Release
+		{B466EECC-0F90-40D0-9EF4-6D90BF32D92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B466EECC-0F90-40D0-9EF4-6D90BF32D92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B466EECC-0F90-40D0-9EF4-6D90BF32D92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B466EECC-0F90-40D0-9EF4-6D90BF32D92E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

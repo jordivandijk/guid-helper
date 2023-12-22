@@ -15,7 +15,13 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_C70955E56B594DFFADFE56A4F5C2FC3E"
+        "MsmKey" = "8:_7454FB9CDD1D4FB195C46C00F903E854"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C62824BC0E9E47D8B5D9F3ED71A52BD1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -81,6 +87,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -88,6 +102,20 @@
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_2580EA4FD5A441C8B0B72EC6E83BC07F"
+            {
+            "Name" = "8:Publish Items from InstallerHelper (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_C62824BC0E9E47D8B5D9F3ED71A52BD1"
+            "FileType" = "3:2"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:/Install"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_6D59C491_AF62_4CF0_B5DB_97AB2FB01ACE"
+            "InstallerClass" = "11:FALSE"
+            "CustomActionData" = "8:"
+            }
         }
         "DefaultFeature"
         {
@@ -151,6 +179,17 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_26BC4F97D5D74F1CA4A5B76194D6D7BF"
+                    {
+                    "Name" = "8:Install"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_3998542B3B8A4BD0B09BE47FDEE0BC86"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
         }
@@ -170,7 +209,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:guid"
         "ProductCode" = "8:{4A70BF01-7850-477B-8914-48ACEBB15729}"
-        "PackageCode" = "8:{80332FC1-7FAC-4D43-9855-4B47AA7FB85A}"
+        "PackageCode" = "8:{487630DB-FF4F-49B8-88A3-583F18D9C3BC}"
         "UpgradeCode" = "8:{7D50E9B3-67EF-4799-9108-269648CEC231}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -178,15 +217,15 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:TerceraBV"
+        "Manufacturer" = "8:JordIT"
         "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:tercera.nl"
+        "ARPHELPLINK" = "8:"
         "Title" = "8:guid"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:TerceraBV"
+        "ARPCONTACT" = "8:JordivanDijk"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:A handy tool to generate guids!"
-        "ARPURLINFOABOUT" = "8:tercera.nl"
+        "ARPURLINFOABOUT" = "8:"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
@@ -290,20 +329,6 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_6861F6DB77764F4F9BB8675ED71A626B"
-            {
-            "Name" = "8:Guid"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_C70955E56B594DFFADFE56A4F5C2FC3E"
-            "Folder" = "8:_6817943AE9D24BA5A2C80FB9F1676D8E"
-            "WorkingFolder" = "8:_FDDA15F40B0947758F99A11405274EA5"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
         }
         "UserInterface"
         {
@@ -703,7 +728,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C70955E56B594DFFADFE56A4F5C2FC3E"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7454FB9CDD1D4FB195C46C00F903E854"
             {
             "SourcePath" = "8:..\\guid\\obj\\Release\\net6.0\\apphost.exe"
             "TargetName" = "8:"
@@ -726,6 +751,34 @@
             "OutputConfiguration" = "8:Release|Any CPU"
             "OutputGroupCanonicalName" = "8:PublishItems"
             "OutputProjectGuid" = "8:{BD5FDCD4-B476-4629-91F2-3ADC66DB8D9F}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C62824BC0E9E47D8B5D9F3ED71A52BD1"
+            {
+            "SourcePath" = "8:..\\InstallerHelper\\obj\\Release\\net6.0\\apphost.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_26BC4F97D5D74F1CA4A5B76194D6D7BF"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:PublishItems"
+            "OutputProjectGuid" = "8:{B466EECC-0F90-40D0-9EF4-6D90BF32D92E}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {
